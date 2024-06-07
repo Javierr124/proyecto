@@ -1,4 +1,4 @@
-/* GLOBALES */
+
 *::after
 *::before
 *{
@@ -30,7 +30,7 @@ img{
     max-width: 100%;
 }
 
-/* Header */
+
 header{
     display: flex;
     justify-content: space-between;
@@ -133,7 +133,7 @@ font-size: 19px;
 }
 
 
-/* Main */
+
 .container-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
