@@ -25,6 +25,7 @@
     justify-content: space-between;
   }
   ul li{
+    color: #fff;
     display: inline-block;
     list-style: none;
     padding: 6px 20px;
@@ -35,7 +36,9 @@
     transition: all 0.3s ease 0s;
   }
   ul li:hover{
-    background-color: #ff4321;
+    outline: none;
+    color: #fff;
+    background-color: #100f0e;
     border-radius: 25px;
     text-decoration: none;
   }
@@ -65,7 +68,7 @@
     font-weight: 500;
     border: none;
     cursor: pointer;
-    background-color: #ff4321;
+    background-color: #320434;
     border-radius: 25px;
     transition: width 0.5s;
   }
