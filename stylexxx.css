@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+.header{
+    padding: 30px;
+
+}
+
+.container{
+    
+    max-width: 1200px;
+    margin: 0 auto; 
+    
+}
+
+
+
+.menu {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.menu .navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu .navbar ul li {
+    margin-right: 20px; 
+}
+
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.menu .navbar ul li a:hover {
+    color: blueviolet;
+}
+
+ 
+
+
+.cuadro-container{
+    background-image: url("images/d1.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.texto{
+    font-size: 70px;
+    position:relative; 
+    top: 100px; 
+    left: 40px; 
+    color: white;
+    
+}
+.tind{
+    font-size: 30px;
+    top: 20px;
+    
+}
+.b{
+    position: relative;
+    top: -60px;
+    font-size: 34px;
+    cursor: pointer;
+    
+}
+
+
+
+.title-container{
+    padding: 40px;
+}
+
+.containerr-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    max-width: 100%;
+    margin: 0;
+}
+
+
+.items{
+    border-radius: 10px;
+    
+}
+.items:hover{
+    box-shadow: 0 10px 20px black;
+}
+.info-product{
+    padding: 15px 30px;
+}
+.info-product button{
+    border:none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+
+
+.header-content-container{
+    padding: 30px;
+
+}
+
+.sun{
+    padding: 30px;
+    background-image: url(images/img1.jpg) ;
+    color:white ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+}
+
+.j{
+    color: white;
+    padding: 30px;
+}
+  
+
+.sen{
+    padding: 30px;
+    background-image: url(images/img2.jpg) ;
+    color:white ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+    
+
+}
+
+.unete{
+    padding: 30px;
+}
+    
+.menbresia-container{
+    background-image: url("images/nike.jpg");
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+}
+
+.h{
+    font-size: 70px;
+    position:relative; 
+    top: 100px; 
+    left: 40px; 
+}
+.i{
+    font-size: 20px;
+    position:relative; 
+    top: 100px; 
+    left: 40px; 
+    color: white;
+    
+}
+.u{
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    color:black;
+}
+
+.funcion{
+    padding: 60px;
+}
+.funcion  ul li {
+    position: relative;
+    font-size: 20px;
+    margin-right: 10px; 
+    display:inline; 
+}
+.funcion nav ul li a{
+    color: black;
+
+}
+.funcion nav ul li a:hover{
+    color: blueviolet;
+
+}
+.pe{
+    padding: 40px;
+}
+
+
+  
+
+  
+
+
+    
+
+
+
