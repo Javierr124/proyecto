@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+/* Estilos del encabezado */
+.header {
+    background-color:black; 
+    padding: 20px;
+    color: white;
+}
+
+/* Estilos del contenedor del menú */
+.menu-container {
+    padding: 40px;
+    font-size: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/* Estilos de la lista de navegación */
+.navbar ul {
+    list-style: none;
+    display: flex; 
+}
+
+.navbar ul li {
+    margin-right: 20px; 
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00; 
+}
+
+
+
+.titulo1{
+    padding:  30px;
+    max-width: 1200px;    
+}
+.titulo-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    max-width: 100%;
+    margin: 0;
+}
+.fotos{
+    border-radius: 10px;
+}
+.fotos:hover{
+    box-shadow: 0 10px 20px black;
+}
+.informacion-fotos{
+    padding: 15px 30px;
+}
+.informacion-fotos button{
+    border:none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+
+.s{
+    padding: 30px;
+}
+.ventas-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    max-width: 100%;
+    margin: 0;
+}
+.ventas1{
+    border-radius: 10px;
+}
+.ventas1:hover{
+    box-shadow: 0 10px 20px black;
+}
+.informacion-ventas{
+    padding: 15px 30px;
+}
+.informacion-ventas button{
+    border:none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointe
+
+}
+.es{
+    padding: 30px;
+}
+
+.estilo-container{
+    display: grid;
+    gri
+
+
+}
+
+.funcion-container{
+    padding: 60px;
+}
+.funcion-container  ul li {
+    position: relative;
+    font-size: 20px;
+    margin-right: 10px; 
+    display:inline; 
+}
+.funcion-container nav ul li a{
+    color: black;
+
+}
+.funcion-container nav ul li a:hover{
+    color: blueviolet;
+
+}
+.pe{
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+.title-container{
+    padding: 40px;
+}
+
+.containerr-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    max-width: 100%;
+    margin: 0;
+}
+
+
+.items{
+    border-radius: 10px;
+    
+}
+.items:hover{
+    box-shadow: 0 10px 20px black;
+}
+.info-product{
+    padding: 15px 30px;
+}
+.info-product button{
+    border:none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+
+
+
