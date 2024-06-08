@@ -47,6 +47,7 @@ header{
 }
 header h1{
   font-size: 7rem;
+  font-size: small;
 }
 header h2{
   font-size: 4rem;
