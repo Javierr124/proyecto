@@ -77,10 +77,17 @@ body{
 }
 .fotos{
     border-radius: 10px;
+    align-items: center;
+    
+    
 }
 
 .fotos:hover{
     box-shadow: 0 10px 20px black;
+    width: 500px; 
+    height: 650px;
+    overflow: hidden; 
+    
 }
 
 
@@ -113,9 +120,13 @@ body{
 }
 .ventas1{
     border-radius: 10px;
+    align-items: center;
 }
 .ventas1:hover{
     box-shadow: 0 10px 20px black;
+    overflow: hidden; 
+    width: 400px; 
+    height: 550px;
 }
 .informacion-ventas{
     padding: 15px 30px;
@@ -162,7 +173,9 @@ footer{
     bottom: 0;
 }
 
-
+img{
+    position:center;
+}
 
 
 img:hover {
