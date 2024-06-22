@@ -46,11 +46,10 @@ header{
  padding: 0 50px;
 }
 header h1{
-  font-size: 7rem;
-  font-size: small;
+  font-size: 60px;
 }
-header h2{
-  font-size: 4rem;
+.container h2{
+  font-size: 30px;
 }
 header p{
   font-size: 1.5rem;
@@ -86,8 +85,8 @@ header button:hover{
 
 .container .emp{
   position: absolute;
-  height: 600px;
-  width: 550px;
+  height: 800px;
+  width: 1000px;
   right: 7%;
   bottom: 0;
   z-index: 999;
@@ -112,4 +111,10 @@ header button:hover{
 .icons i:hover{
   color: #ff4321;
   transition: all 0.3s ease 0s;
+}
+header {
+  font-size: 40px;
+}
+.letras{
+  font-size: 25px;
 }

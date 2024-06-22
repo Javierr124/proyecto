@@ -22,8 +22,9 @@ body{
 
 .container{
     
-    max-width: 1200px;
     margin: 0 auto; 
+    max-width: 1200px;
+    
     
 }
 
@@ -60,7 +61,7 @@ body{
 
 
 .cuadro-container{
-    background-image: url("images/d1.jpg");
+    background-image: url("imagenes/d1.jpg");   
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
