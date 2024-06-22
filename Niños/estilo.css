@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color:  rgb(187, 183, 183);
+    background-image: url(kk.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
@@ -76,9 +78,12 @@ body{
 .fotos{
     border-radius: 10px;
 }
+
 .fotos:hover{
     box-shadow: 0 10px 20px black;
 }
+
+
 .informacion-fotos{
     padding: 15px 30px;
     font-size: 20px;
@@ -156,3 +161,11 @@ footer{
     
     bottom: 0;
 }
+
+
+
+
+img:hover {
+    transform: scale(1.1);
+    transition: 4s;
+  }
