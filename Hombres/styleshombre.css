@@ -58,14 +58,6 @@ header{
     border-radius: 60%;
 }
 
-.cart-product{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-    align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
-}
-
 .container-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -89,7 +81,6 @@ header{
     border-radius: 10px 10px 0 0;
     transition: all .4s;
 }
-
 
 
 .item:hover img{

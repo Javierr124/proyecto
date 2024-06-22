@@ -1,4 +1,4 @@
-body nav{
+body nav{  /*Color de las ref*/
   background-color: rgb(255, 255, 255);
 }
 
@@ -9,10 +9,10 @@ body{
   background: url(https://i.pinimg.com/originals/e8/31/aa/e831aadce2bef7bc16d5abe39b626037.jpg); 
   background-size: cover;
   background-position: center;
-  max-width: 1200px;
+  max-width: 1240px;
 }
 
-.icon-cart{
+.icon-cart{ /*posicion del carrito */
     width: 46px;
     height: 46px;
     stroke: #000;
@@ -21,7 +21,7 @@ body{
     margin-top: 12px;
 }
 
-.icon-cart:hover{
+.icon-cart:hover{ /*Al pasar el puntero por el carrito*/
   cursor: pointer;
 }
 
@@ -29,13 +29,13 @@ img{
     max-width: 100%;
 }
 
-header{
+header{ /*Todo lo que tiene que ver con el encabezado*/
     display: flex;
     justify-content: space-between;
     padding: 20px 0 20px 0;
-    background-color: rgba(45, 216, 11, 0.89);
+    background-color: rgba(255, 249, 249, 0.952);
     margin-bottom: 40px;
-    max-width: 1200px;
+    max-width: 1240px;
     border: 3px solid #00000086;
 }
 
@@ -43,7 +43,7 @@ header{
     position: relative;
 }
 
-.count-products{
+.count-products{ /*El numero contador del carrito */
     position: absolute;
     top: 65%;
     right: 0;
@@ -58,13 +58,6 @@ header{
     border-radius: 60%;
 }
 
-.cart-product{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-    align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
-}
 
 .container-items{
     display: grid;
@@ -81,7 +74,6 @@ header{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 }
 
-
 .item img{
     width: 100%;
     height: 300px;
@@ -89,11 +81,8 @@ header{
     border-radius: 10px 10px 0 0;
     transition: all .4s;
 }
-
-
-
 .item:hover img{
-    transform: scale(1.02)  ;
+    transform: scale(1.03)  ;
 }
 
 .infoproduct{
@@ -131,14 +120,14 @@ header{
     position: relative;
   }
 
-  nav{
+  nav{ /*Linea de referencias(Tamaños)*/
     padding: 10px;
     text-align: right;
     color: #fff;
     width: 100%;
   }
 
-  ul li{
+  ul li{ /*Referencias*/
     display: inline-block;
     list-style: none;
     padding: 6px 20px;
@@ -156,8 +145,8 @@ header{
 
   
   header h1{
-    font-size: 55px;
-    font-style: normal;
+    font-size: 50px;
+    font-style: italic;
     color: #000000;
     margin-left: 15px;
   }
@@ -188,3 +177,4 @@ header{
     justify-content: space-between;
     width: 160px;
   }
+
