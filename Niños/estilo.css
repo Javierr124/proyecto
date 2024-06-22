@@ -6,32 +6,35 @@
     box-sizing: border-box;
 }
 body{
+    background-image: url(kk.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
     font-family: 'Bebas Neue', cursive;
 }
 .container{
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0;
 }
-/* Estilos del encabezado */
-.header {
-    background-color:black; 
-    padding: 20px;
-    color: white;
-}
 
-/* Estilos del contenedor del menú */
+
+
+
 .menu-container {
+    color: white ;
     padding: 40px;
     font-size: 20px; 
-    max-width: 1200px; 
-    margin: 0 auto; 
+    max-width: 100%; 
+    margin: 10px ; 
     display: flex; 
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    background-color: black;
+    background-position: left;
+    background-size: cover;
+    margin-bottom: 20px;
 }
 
 /* Estilos de la lista de navegación */
@@ -45,7 +48,7 @@ body{
 }
 
 .navbar ul li a {
-    font-size: 20px;
+    font-size: 40px;
     text-decoration: none; 
     color: white; 
     font-weight: bold; 
@@ -58,25 +61,40 @@ body{
 
 
 
+
+
 .titulo1{
-    padding:  30px;
-    max-width: 1200px;    
+    font-size: 20px;
+    padding:  40px;
+        
 }
 .titulo-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
-    max-width: 100%;
+    max-width: 100%x;
     margin: 0;
 }
 .fotos{
     border-radius: 10px;
+    align-items: center;
+    
+    
 }
+
 .fotos:hover{
     box-shadow: 0 10px 20px black;
+    width: 500px; 
+    height: 650px;
+    overflow: hidden; 
+    
 }
+
+
 .informacion-fotos{
     padding: 15px 30px;
+    font-size: 20px;
+    
 }
 .informacion-fotos button{
     border:none;
@@ -86,6 +104,7 @@ body{
     padding: 15px 10px;
     cursor: pointer;
 }
+
 
 
 
@@ -101,92 +120,65 @@ body{
 }
 .ventas1{
     border-radius: 10px;
+    align-items: center;
 }
 .ventas1:hover{
     box-shadow: 0 10px 20px black;
+    overflow: hidden; 
+    width: 400px; 
+    height: 550px;
 }
 .informacion-ventas{
     padding: 15px 30px;
 }
 .informacion-ventas button{
-    border:none;
-    background: none;
-    background-color: black;
-    color: white;
-    padding: 15px 10px;
-    cursor: pointe
-
-}
-.es{
-    padding: 30px;
-}
-
-.estilo-container{
-    display: grid;
-}
-
-.funcion-container{
-    padding: 60px ;
-}
-
-.funcion-container  ul li {
-    position: relative;
-    font-size: 20px;
-    margin-right: 10px; 
-    display:inline; 
-}
-.funcion-container nav ul li a{
-    color: black;
-
-}
-.funcion-container nav ul li a:hover{
-    color: blueviolet;
-
-}
-.pe{
-    padding: 40px;
-}
-
-
-
-
-
-
-
-
-
-.title-container{
-    padding: 40px;
-}
-
-.containerr-items{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    max-width: 100%;
-    margin: 0;
-}
-
-
-.items{
-    border-radius: 10px;
-    
-}
-.items:hover{
-    box-shadow: 0 10px 20px black;
-}
-.info-product{
-    padding: 15px 30px;
-}
-.info-product button{
-    border:none;
+    border:5px black;
     background: none;
     background-color: black;
     color: white;
     padding: 15px 10px;
     cursor: pointer;
+
 }
 
 
 
 
+.funcion-container{
+    padding: 60px;
+    position: relative;
+}
+.funcion-container ul li{
+    position: relative;
+    font-size: 20px;
+    margin-right: 12px ;
+    display: inline;
+}
+.funcion-container ul li a{
+    color:black
+}
+.funcion-container ul li a:hover{
+    color:#ffcc00
+}
+
+
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    
+    bottom: 0;
+}
+
+img{
+    position:center;
+}
+
+
+img:hover {
+    transform: scale(1.1);
+    transition: 4s;
+  }
