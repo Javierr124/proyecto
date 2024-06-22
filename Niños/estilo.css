@@ -123,14 +123,12 @@ body{
 
 .estilo-container{
     display: grid;
-    gri
-
-
 }
 
 .funcion-container{
-    padding: 60px;
+    padding: 60px ;
 }
+
 .funcion-container  ul li {
     position: relative;
     font-size: 20px;
