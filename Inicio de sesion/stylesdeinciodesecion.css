@@ -1,10 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    background: url(../proyecto-main/imagenes/cr.jpg) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
-    background-image: url("cr.jpg");   
 
 }
 .login-box {
@@ -64,6 +64,7 @@ body{
     font-size: 18px;
     border-radius: 20px;
 }    
+
 
 
 
