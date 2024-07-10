@@ -117,10 +117,12 @@ header{ /*Todo lo que tiene que ver con el encabezado*/
     padding: 6px 20px;
     font-weight: 500;
     font-size: 2rem;
-    text-decoration: underline;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
   }
+  
   ul li:hover{
     background-color: #ff4321;
     border-radius: 25px;
