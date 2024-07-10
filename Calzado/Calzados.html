@@ -21,13 +21,24 @@
     </nav>
     <header>  
         <h1>Calzado Deportivo</h1>
-        <div class="container-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-            </svg> 
-            <div class="count-products">
-                <span id="contador-productos">1</span>
         </div>
+        <section id="carrito">
+            <div class="container-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg> 
+            <table id="carrito-lista">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="carrito-body">
+                </tbody>
+            </table>
+            <p id="total">Total: S/0.00</p>
+        </section>
     </header>   
         <div class="container-items">
             <div class="item">
@@ -35,7 +46,7 @@
                 <div class="infoproduct">
                     <h2>Nike Zoom Mercurial Superfly 9 Academy MG</h2>
                     <p class="precio">S/419.90</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Zoom Mercurial Superfly 9 Academy MG', 419.90)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -43,7 +54,7 @@
                 <div class="infoproduct">
                     <h2>Nike Zoom Mercurial Superfly 9 Academy TF</h2>
                     <p class="precio">S/343.92</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Zoom Mercurial Superfly 9 Academy TF', 343.92)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -51,7 +62,7 @@
                 <div class="infoproduct">
                     <h2>Nike Tiempo Emerald Legend 10 Academy</h2>
                     <p class="precio">S/ 379.90</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Tiempo Emerald Legend 10 Academy', 379.90)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -60,7 +71,7 @@
                     <h2>Nike Phantom GX 2 Elite
                     </h2>
                     <p class="precio">S/1,099.90</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Phantom GX 2 Elite', 1099.90)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -68,7 +79,7 @@
                 <div class="infoproduct">
                     <h2> Nike Tiempo Legend 10 Academy</h2>
                     <p class="precio">S/330</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Tiempo Legend 10 Academy', 330)">Agregar al Carrito</button>
                 </div> 
             </div>
             <div class="item">
@@ -76,7 +87,7 @@
                 <div class="infoproduct">
                     <h2>Nike Phantom GX 2 Academy</h2>
                     <p class="precio">S/379.90</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Phantom GX 2 Academy', 379.90)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -85,7 +96,7 @@
                     <h2>Nike Winflo 10
                     </h2>
                     <p class="precio">S/281.94</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Winflo 10', 281.94)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -94,7 +105,7 @@
                     <h2>Nike Tiempo Legend 10 Academy
                     </h2>
                     <p class="precio">S/258.93</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Tiempo Legend 10 Academy', 343.92)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -103,7 +114,7 @@
                     <h2>LeBron XXI Conchiolin
                     </h2>
                     <p class="precio">S/809.91</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('LeBron XXI Conchiolin', 809.91)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -112,7 +123,7 @@
                     <h2>Nike Free RN NN
                     </h2>
                     <p class="precio">S/269.94</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Free RN NN', 269.94)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -121,7 +132,7 @@
                     <h2>Nike Flex Experience Run 11
                     </h2>
                     <p class="precio">S/179.94</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Flex Experience Run 11', 179.94)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -131,7 +142,7 @@
                     <h2>Nike Downshifter 12
                     </h2>
                     <p class="precio">S/159.92</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Downshifter 12', 159.92)">Agregar al Carrito</button>
                 </div>
             </div>
             <div class="item">
@@ -140,10 +151,10 @@
                 <div class="infoproduct">
                     <h2>Nike Vomero 17</h2>
                     <p class="precio">S/489.93</p>
-                    <button>Añadir al carrito</button>
+                    <button onclick="agregarAlCarrito('Nike Vomero 17', 489.93)">Agregar al Carrito</button>
                 </div>
             </div>
         </div>
-
+        <script src="script.js"></script>
 </body>
 </html>
