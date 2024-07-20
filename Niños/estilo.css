@@ -19,8 +19,12 @@ body{
     padding: 0;
 }
 
-
-
+.boton-compra {
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none; /* quitar el subrayado */
+}
 
 .menu-container {
     color: white ;
