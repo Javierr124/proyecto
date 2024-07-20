@@ -6,10 +6,34 @@ body{
   margin: 0%auto;    
   font-family: lato;
   color: #000000;
-  background: url(https://i.pinimg.com/originals/e8/31/aa/e831aadce2bef7bc16d5abe39b626037.jpg); 
+  background: url(https://img.freepik.com/fotos-premium/exposicion-calzado-muchas-zapatillas-multicolores-estante-venta-tienda-moda-sobre-fondo-blanco-representacion-3d_476612-16353.jpg?w=1380); 
   background-size: cover;
   background-position: center;
   max-width: 1240px;
+}
+
+.boton-compra {
+  position: relative; /* Necesario para que el recuadro se posicione correctamente */
+  display: inline-block; /* Hace que el enlace se ajuste al contenido */
+  text-decoration: none; /* Quitar subrayado del enlace */
+  color: #ffffff; /* Color del texto del botón */
+  background-color: #f31506; /* Color de fondo del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 4px; /* Bordes redondeados del botón */
+  left: 15px;
+  top: 5.5px;
+}
+
+.recuadro-comprar {
+  position: absolute;
+  top: 50%; /* Ajusta la posición verticalmente */
+  left: 50%; /* Ajusta la posición horizontalmente */
+  transform: translate(-50%, -50%); /* Centra el recuadro */
+  background-color: #ff0000; /* Color de fondo del recuadro */
+  color: #ffffff; /* Color del texto del recuadro */
+  padding: 5px 10px; /* Espaciado interno del recuadro */
+  border: 2px solid #f31506; /* Borde del recuadro */
+  border-radius: 5px; /* Bordes redondeados del recuadro */
 }
 
 .icon-cart{ /*posicion del carrito */
@@ -109,6 +133,7 @@ header{ /*Todo lo que tiene que ver con el encabezado*/
     text-align: right;
     color: #fff;
     width: 100%;
+    text-decoration: none;
   }
 
   ul li{ /*Referencias*/
@@ -117,12 +142,10 @@ header{ /*Todo lo que tiene que ver con el encabezado*/
     padding: 6px 20px;
     font-weight: 500;
     font-size: 2rem;
+    text-decoration: underline;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: white;
-    text-decoration: none;
   }
-  
   ul li:hover{
     background-color: #ff4321;
     border-radius: 25px;
